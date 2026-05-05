@@ -21,7 +21,7 @@ public class ValidateIPTest {
 
         assertFalse(validator.validate("256.1.1.1"));
         assertFalse(validator.validate("192.168.1"));
-        assertFalse(validator.validate("192.168.1.a"));
+        assertFalse(validator.validate("192.ava.1.1"));
         assertFalse(validator.validate("01.1.1.1"));
     }
 }
